@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*  header */
+.header__left img{
+    object-fit: contain;
+    height: 80px;
+    margin-left: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__left span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__middle{
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.material-icon{
+    color: gray;
+}
+
+.header__middle input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header__right{
+    display: flex;
+    padding-right: 20px;
+}
+
+.header__right span{
+    padding: 10px;
+    cursor:pointer;
+}
+
+/*  sidebar */
+.sidebar{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+
+.sidebar__compose{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: gray;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar__compose span{
+    margin-right: 5px;
+}
+
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color-adjust: #818181;
+}
+
+.sidebarOption .material-icon{
+    padding: 5px;
+}
+
+.sidebaroption h3 {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebaroption:hover,
+.sidebaroption:hover h3
+.sidebaroption:hover .material-icons
+.sidebaroption__active,
+.sidebaroption__active h3,
+.sidebaroption__active,.material-icon{
+    background-color: #fce8e8;
+    color-adjust: #c04b37;
+    font-weight: 800px;
+}
+
+.sidebar__footer {
+    display: flex;
+    justify-content: center;
+}
+.sidebar__footericorn .material-icons {
+    margin: 7px;
+    cursor: pointer;
+}
